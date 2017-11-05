@@ -4,7 +4,7 @@
 
     <groupId>org.antframework</groupId>
     <artifactId>ant-dependencies</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0-RELEASE</version>
     <packaging>pom</packaging>
 
     <name>ant-dependencies</name>
@@ -159,7 +159,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-gpg-plugin</artifactId>
-                        <version>1.5</version>
+                        <version>1.6</version>
                         <executions>
                             <execution>
                                 <phase>verify</phase>
