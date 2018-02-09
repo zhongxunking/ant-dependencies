@@ -36,22 +36,6 @@
                 <artifactId>fastjson</artifactId>
                 <version>1.2.38</version>
             </dependency>
-            <!--bekit-->
-            <dependency>
-                <groupId>org.bekit</groupId>
-                <artifactId>event</artifactId>
-                <version>1.2.3.RELEASE</version>
-            </dependency>
-            <dependency>
-                <groupId>org.bekit</groupId>
-                <artifactId>flow</artifactId>
-                <version>1.2.3.RELEASE</version>
-            </dependency>
-            <dependency>
-                <groupId>org.bekit</groupId>
-                <artifactId>service</artifactId>
-                <version>1.2.3.RELEASE</version>
-            </dependency>
             <!--zookeeper-->
             <dependency>
                 <groupId>org.apache.zookeeper</groupId>
@@ -114,6 +98,22 @@
                         <artifactId>spring-web</artifactId>
                     </exclusion>
                 </exclusions>
+            </dependency>
+            <!--bekit-->
+            <dependency>
+                <groupId>org.bekit</groupId>
+                <artifactId>event</artifactId>
+                <version>1.2.3.RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>org.bekit</groupId>
+                <artifactId>flow</artifactId>
+                <version>1.2.3.RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>org.bekit</groupId>
+                <artifactId>service</artifactId>
+                <version>1.2.3.RELEASE</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
