@@ -4,7 +4,7 @@
 
     <groupId>org.antframework</groupId>
     <artifactId>ant-dependencies</artifactId>
-    <version>1.2.3.RELEASE</version>
+    <version>1.2.4</version>
     <packaging>pom</packaging>
 
     <name>ant-dependencies</name>
